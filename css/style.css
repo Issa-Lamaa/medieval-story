@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+button {
+    border-radius: 10px;
+    width: 200px;
+    height: 20px;
+    text-decoration: none;
+    border: 2px solid black;
+    display: block;
+    color: #e8951a;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 125px;
+    cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid #e8951a;
+  color: black;
+}
+
+button:focus {
+  color: grey;
+}
+
+p {
+  font-family: 'Girassol', cursive;
+}
+
+span {
+  font-family: 'Girassol', cursive;
+}
+
+section {
+  border: 2px double #000;
+}
+
+.font {
+  font-family: 'Goblin One', cursive;
+}
+
+#option-one {
+  border: 2px double black;
+  color: #e8951a;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  display: inline;
+}
+
+#option-two {
+  border: 2px double black;
+  color: #e8951a;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  display: inline;
+}
+
+#option-one:hover {
+  border: 2px double #e8951a;
+  color: black;
+}
+
+#option-two:hover {
+  border: 2px double #e8951a;
+  color: black;
+}
+
+#heroName {
+  font-family: 'Roboto', sans-serif;
+  width: 200px;
+  height: 20px;
+  margin-left: 125px;
+  margin-top: 50px;
+}
+
+#body-one {
+  background-color: #e8951a;
+}
+
+#badName {
+  font-family: 'Roboto', sans-serif;
+  width: 200px;
+  height: 20px;
+  margin-left: 125px;
+  margin-top: 50px;
+}
+
+#rest {
+  display: none;
+}
+
+#living {
+  display: none;
+}
+
+#game {
+  display: none;
+  text-align: center;
+  background-color: #fff;
+  font-size: x-large;
+}
+
+#loginForm {
+  margin: 200px auto;
+  width: 450px;
+  height: 600px;
+  border: 5px solid black;
+  background-color: #fff;
+}
+
+#oof {
+  text-align: center;
+  font-family: 'Goblin One', cursive;
+}
